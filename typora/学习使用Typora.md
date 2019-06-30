@@ -10,10 +10,8 @@
     * [6.2 克隆到本地](#62-克隆到本地)
     * [6.3 本地用Typora打开并编辑](#63-本地用typora打开并编辑)
     * [6.4 同步到github](#64-同步到github)
-                                              
-                      * [technical-notes的目录下)](#technical-notes的目录下)
-                  
-                  
+
+
 
 
 ## 1、格式
