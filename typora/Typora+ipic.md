@@ -1,27 +1,27 @@
 # Table of Contents
 
-* [1、为什么要用ipic](#1、为什么要用ipic)
-* [2、ipic解决方案](#2、ipic解决方案)
+* [1  为什么要用ipic](#1--为什么要用ipic)
+* [2  ipic解决方案](#2--ipic解决方案)
   * [2.1 下载ipic（仅限mac）](#21-下载ipic（仅限mac）)
   * [2.2 偏好设置](#22-偏好设置)
   * [2.3 iPic Mover](#23-ipic-mover)
-* [3、参考资料](#3、参考资料)
-* [4、iPic Mover设置上传后删除本地图片](#4、ipic-mover设置上传后删除本地图片)
-* [5、安装Pandoc](#5、安装pandoc)
+* [3  参考资料](#3--参考资料)
+* [4  iPic Mover设置上传后删除本地图片](#4--ipic-mover设置上传后删除本地图片)
+* [5  安装Pandoc](#5--安装pandoc)
   * [5.1 为什么要用Pandoc](#51-为什么要用pandoc)
   * [5.2 macOS](#52-macos)
-* [6、github不显示toc（目录内容）](#6、github不显示toc（目录内容）)
+* [6  github不显示toc（目录内容）](#6--github不显示toc（目录内容）)
   * [6.1 解决方案](#61-解决方案)
 
 
 
-# 1、为什么要用ipic
+# 1  为什么要用ipic
 
 在本地Typora插入图片的时候能正常显示，但是将编写的文档上传到GitHub上时，不显示了。是因为插入的时候，使用的本地链接路径，生成html文件的时候，img也是该路径，但是我们在本地存储的图片，在网站上是没有能力访问的。如下
 
 ![](http://ww2.sinaimg.cn/large/006tNc79ly1g4ixv99g4hj30kb0g1myo.jpg)
 
-# 2、ipic解决方案
+# 2  ipic解决方案
 
 ## 2.1 下载ipic（仅限mac）
 
@@ -43,20 +43,20 @@
 
 ![image-20190630100551123](http://ww4.sinaimg.cn/large/006tNc79ly1g4iyw35920j30pe0hiamz.jpg)
 
-# 3、参考资料
+# 3  参考资料
 
 1. [iPic - Markdown 图床、文件上传工具](https://toolinbox.net/iPic/ )
 
 2. [Typora极简教程](https://www.jianshu.com/p/a6a6a22e9393)
 3. [Github Flavored Markdown语法介绍](https://github.com/guodongxiaren/README)
 
-# 4、iPic Mover设置上传后删除本地图片
+# 4  iPic Mover设置上传后删除本地图片
 
 在操作2.3时，可以将上传后删除本地图片的设置一起勾选，这里单独拿出来，是为了进行说明
 
 ![image-20190630101413952](http://ww1.sinaimg.cn/large/006tNc79ly1g4iytyj3j1j30jy0dwaaj.jpg)
 
-# 5、安装Pandoc
+# 5  安装Pandoc
 
 ## 5.1 为什么要用Pandoc
 Pandoc 是一个标记语言转换工具，可实现不同标记语言间的格式转换，堪称该领域中的“瑞士军刀”。
@@ -91,7 +91,7 @@ macOS 有两种安装方式：使用安装包安装或使用 homebrew 安装。
    ```
 
 
-# 6、github不显示toc（目录内容）
+# 6  github不显示toc（目录内容）
 
 在本地编辑Typora，使用[toc]后，目录自动显示出来，如下图
 
