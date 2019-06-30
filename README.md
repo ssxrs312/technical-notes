@@ -6,3 +6,46 @@
 
   [Typora+ipic](/typora/Typora+ipic.md)
 
+# 1  程序员如何构建自己的学习笔记系统
+
+接触markdown比较晚，我的电脑是macbook pro，学习笔记用的是印象笔记，之前的印象笔记是没有markdown的，后来发现印象笔记有markdown，更新了版本，还不错。所以，我决定尝试使用印象笔记+github模式作为我的学习笔记系统。
+
+1. 印象笔记：记录零散的知识点
+2. typora+git+github：将知识整理成体系
+
+
+
+当然，网络上很多同学习惯使用博客+github的方式作为他们的学习笔记系统
+
+1. 博客：记录零散的知识点
+2. github：将知识整理成体系
+
+
+
+# 2  示例：博客+github
+
+[phodal的博客](https://www.phodal.com/)
+
+[phodal的github](https://github.com/phodal)
+
+
+
+# 3  利用github pages+jekyll搭建个人免费博客
+
+[github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+
+[使用github pages搭建个人免费博客](https://www.jianshu.com/p/fabb01427203)
+
+[jekyll中文网址](http://jekyllcn.com/)
+
+[jekyll模板](http://jekyllthemes.org/)
+
+[博客搭建详细教程]([https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B](https://github.com/qiubaiying/qiubaiying.github.io/wiki/博客搭建详细教程))
+
+
+
+# 4  利用Typora+git+github搭建知识技能体系
+
+我已经将如何搭建写成了文章，具体请通过顶部的导航查看
+
+![image-20190630202042230](http://ww1.sinaimg.cn/large/006tNc79ly1g4jg8umbm2j30kt04wmxe.jpg)
