@@ -105,5 +105,45 @@ macOS 有两种安装方式：使用安装包安装或使用 homebrew 安装。
 
 方案二：下载工具
 
-[为 markdown 文件生成 toc 目录](https://github.com/houbb/markdown-toc/tree/release_1.0.2)
+1. [为 markdown 文件生成 toc 目录](https://github.com/houbb/markdown-toc/tree/release_1.0.2)
+
+2. 用idea克隆项目
+
+![image-20190630172312203](http://ww3.sinaimg.cn/large/006tNc79ly1g4jbkfv5xjj30c10cat9q.jpg)
+
+![image-20190630172400789](http://ww4.sinaimg.cn/large/006tNc79ly1g4jbkgmqk3j30wf0h1wjl.jpg)
+
+![image-20190630172434907](http://ww1.sinaimg.cn/large/006tNc79ly1g4jbkhj031j30fk03u3yx.jpg)
+
+3. 找到需要生成toc的路径和文件
+
+   ```java
+   String path = TestPathUtil.getAppRootPath("学习使用Typora.md"); //这里是修改文件名的，示例是“中文名称.md"，我需要生成的md文件不叫这个名字，所以我改成了"学习使用Typora.md"
+   ```
+
+![image-20190630172726721](http://ww3.sinaimg.cn/large/006tNc79ly1g4jbki1adjj30wf0jxn4m.jpg)
+
+
+
+```java
+return "/Users/hubin/typoraDocument/technical-notes/typora/"+relativeTest;  //这里是修改路径的地方，我不需要root路径（root路径是存放项目markdown-doc的路径），去掉了，直接写上md文件存放的路径即可。其实emptyFile也可以去掉，因为没有用到，getAppRootPath方法直接返回了md的路径+参数
+```
+
+![image-20190630173216654](http://ww4.sinaimg.cn/large/006tNc79ly1g4jbkihidfj30wp0gjq8m.jpg)
+
+4. 点击三角型运行程序
+
+![image-20190630173700482](http://ww3.sinaimg.cn/large/006tNc79ly1g4jbkj1g8sj30iv04r0tj.jpg)
+
+5. 手动修改下md文档
+
+![image-20190630173742946](http://ww1.sinaimg.cn/large/006tNc79ly1g4jbkjeh50j30l40c3t9r.jpg)
+
+6. 在终端中输入
+
+```
+git add -A
+git commit -m"使用代码生成toc"
+git push origin master
+```
 
