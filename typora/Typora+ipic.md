@@ -1,7 +1,3 @@
----
-typora-copy-images-to: ipic
----
-
 [TOC]
 
 # 1、为什么要用ipic
@@ -34,10 +30,17 @@ typora-copy-images-to: ipic
 
 # 3、参考资料
 
-[iPic - Markdown 图床、文件上传工具]: https://toolinbox.net/iPic/
+[iPic - Markdown 图床、文件上传工具]: https://toolinbox.net/iPic/	"参考"
 
-# 4、上传后删除本地图片
+# 4、iPic Mover设置上传后删除本地图片
 
 
 
 ![image-20190630101413952](http://ww1.sinaimg.cn/large/006tNc79ly1g4iytyj3j1j30jy0dwaaj.jpg)
+
+
+
+![image-20190630102612784](http://ww2.sinaimg.cn/large/006tNc79ly1g4iz2wtlfwj30e40e10vf.jpg)
+
+
+
