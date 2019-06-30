@@ -89,12 +89,16 @@ macOS 有两种安装方式：使用安装包安装或使用 homebrew 安装。
 ## 6.1 解决方案
 
 方案一：使用锚点
-
-- [1、为什么要用ipic](#1、为什么要用ipic)
-- [2、ipic解决方案](#2、ipic解决方案)
-  - [2.1 下载ipic（仅限mac）](#2.1 下载ipic（仅限mac）)
-  - [2.2 偏好设置](#2.2 偏好设置)
-
 - [1、为什么要用ipic](#1为什么要用ipic)
 - [2、ipic解决方案](#2ipic解决方案)
   * [2.1 下载ipic（仅限mac）](#21-下载ipic仅限mac)
+
+格式如下，
+
+![image-20190630122248182](http://ww4.sinaimg.cn/large/006tNc79ly1g4j2ic2901j30dk03i74v.jpg)
+
+技巧：上图中，在[]中直接写标题，()的格式要怎么写呢，在github中点击后查看，如下图
+
+![image-20190630122544661](http://ww3.sinaimg.cn/large/006tNc79ly1g4j2ictwmij30t404vmy6.jpg)
+
+![image-20190630122609687](http://ww1.sinaimg.cn/large/006tNc79ly1g4j2idbf1kj30rs0493zz.jpg)
