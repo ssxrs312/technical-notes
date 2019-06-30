@@ -1,4 +1,19 @@
-[TOC]
+# Table of Contents
+
+* [1、为什么要用ipic](#1、为什么要用ipic)
+* [2、ipic解决方案](#2、ipic解决方案)
+  * [2.1 下载ipic（仅限mac）](#21-下载ipic（仅限mac）)
+  * [2.2 偏好设置](#22-偏好设置)
+  * [2.3 iPic Mover](#23-ipic-mover)
+* [3、参考资料](#3、参考资料)
+* [4、iPic Mover设置上传后删除本地图片](#4、ipic-mover设置上传后删除本地图片)
+* [5、安装Pandoc](#5、安装pandoc)
+  * [5.1 为什么要用Pandoc](#51-为什么要用pandoc)
+  * [5.2 macOS](#52-macos)
+* [6、github不显示toc（目录内容）](#6、github不显示toc（目录内容）)
+  * [6.1 解决方案](#61-解决方案)
+
+
 
 # 1、为什么要用ipic
 
@@ -118,7 +133,8 @@ macOS 有两种安装方式：使用安装包安装或使用 homebrew 安装。
 3. 找到需要生成toc的路径和文件
 
    ```java
-   String path = TestPathUtil.getAppRootPath("学习使用Typora.md"); //这里是修改文件名的，示例是“中文名称.md"，我需要生成的md文件不叫这个名字，所以我改成了"学习使用Typora.md"
+   //这里是修改文件名的，示例是“中文名称.md"，我需要生成的md文件不叫这个名字，所以我改成了"学习使用Typora.md"
+   String path = TestPathUtil.getAppRootPath("学习使用Typora.md"); 
    ```
 
 ![image-20190630172726721](http://ww3.sinaimg.cn/large/006tNc79ly1g4jbki1adjj30wf0jxn4m.jpg)
@@ -126,7 +142,8 @@ macOS 有两种安装方式：使用安装包安装或使用 homebrew 安装。
 
 
 ```java
-return "/Users/hubin/typoraDocument/technical-notes/typora/"+relativeTest;  //这里是修改路径的地方，我不需要root路径（root路径是存放项目markdown-doc的路径），去掉了，直接写上md文件存放的路径即可。其实emptyFile也可以去掉，因为没有用到，getAppRootPath方法直接返回了md的路径+参数
+//这里是修改路径的地方，我不需要root路径（root路径是存放项目markdown-doc的路径），去掉了，直接写上md文件存放的路径即可。其实emptyFile也可以去掉，因为没有用到，getAppRootPath方法直接返回了md的路径+参数
+return "/Users/hubin/typoraDocument/technical-notes/typora/"+relativeTest;  
 ```
 
 ![image-20190630173216654](http://ww4.sinaimg.cn/large/006tNc79ly1g4jbkihidfj30wp0gjq8m.jpg)
@@ -146,4 +163,20 @@ git add -A
 git commit -m"使用代码生成toc"
 git push origin master
 ```
+
+7. 整个文件夹进行生成（第3步-第4步是单个文件生成，现在是文件夹下的所有md文件生成）
+
+```java
+//将sub改为typora，这里只需要把你需要生成的目录写进去，比如typora
+String path = TestPathUtil.getAppRootPath("typora");
+```
+
+![image-20190630175217535](http://ww3.sinaimg.cn/large/006tNc79ly1g4jc2lh8axj30ul0ctae2.jpg)
+
+```java
+//路径也要改一下，technical-notes/后面的typora去掉了，因为上图已经将sub改为typora，这里就不要重复写入
+return "/Users/hubin/typoraDocument/technical-notes/"+relativeTest;
+```
+
+![image-20190630175423435](http://ww4.sinaimg.cn/large/006tNc79ly1g4jc2n6ebaj30uh0bb0xv.jpg)
 
