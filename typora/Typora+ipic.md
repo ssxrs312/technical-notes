@@ -33,6 +33,7 @@
 1. [iPic - Markdown 图床、文件上传工具](https://toolinbox.net/iPic/ )
 
 2. [Typora极简教程](https://www.jianshu.com/p/a6a6a22e9393)
+3. [Github Flavored Markdown语法介绍]([https://github.com/guodongxiaren/README#%E9%93%BE%E6%8E%A5](https://github.com/guodongxiaren/README#链接))
 
 # 4、iPic Mover设置上传后删除本地图片
 
@@ -74,4 +75,23 @@ macOS 有两种安装方式：使用安装包安装或使用 homebrew 安装。
    sudo brew install pandoc
    ```
 
-   
+
+# 6、github不显示toc（目录内容）
+
+在本地编辑Typora，使用[toc]后，目录自动显示出来，如下图
+
+![image-20190630113302110](/Users/hubin/typoraDocument/technical-notes/typora/image-20190630113302110.png)
+
+而github却不显示，网上说是因为github不支持markdown的toc目录
+
+![image-20190630115103286](/Users/hubin/typoraDocument/technical-notes/typora/image-20190630115103286.png)
+
+## 6.1 解决方案
+
+方案一：使用锚点
+
+- [1、为什么要用ipic](#1、为什么要用ipic)
+- [2、ipic解决方案](#2、ipic解决方案)
+  - [2.1 下载ipic（仅限mac）](#2.1 下载ipic（仅限mac）)
+  - [2.2 偏好设置](#2.2 偏好设置)
+
