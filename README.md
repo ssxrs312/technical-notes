@@ -32,6 +32,8 @@
 
 # 3  利用github pages+jekyll搭建个人免费博客
 
+我用的是印象笔记作为记录零散的知识，没有搭建博客，这里先将搭建博客的资料展示出来，供参考
+
 [github Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
 [使用github pages搭建个人免费博客](https://www.jianshu.com/p/fabb01427203)
@@ -40,7 +42,7 @@
 
 [jekyll模板](http://jekyllthemes.org/)
 
-[博客搭建详细教程]([https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B](https://github.com/qiubaiying/qiubaiying.github.io/wiki/博客搭建详细教程))
+[博客搭建详细教程](https://github.com/qiubaiying/qiubaiying.github.io)
 
 
 
