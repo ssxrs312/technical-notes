@@ -80,11 +80,11 @@ macOS 有两种安装方式：使用安装包安装或使用 homebrew 安装。
 
 在本地编辑Typora，使用[toc]后，目录自动显示出来，如下图
 
-![image-20190630113302110](/Users/hubin/typoraDocument/technical-notes/typora/image-20190630113302110.png)
+![image-20190630113302110](http://ww3.sinaimg.cn/large/006tNc79ly1g4j2al0ic3j308e077t9g.jpg)
 
 而github却不显示，网上说是因为github不支持markdown的toc目录
 
-![image-20190630115103286](/Users/hubin/typoraDocument/technical-notes/typora/image-20190630115103286.png)
+![image-20190630115103286](http://ww3.sinaimg.cn/large/006tNc79ly1g4j2als9i8j30rf07xwg9.jpg)
 
 ## 6.1 解决方案
 
@@ -95,3 +95,6 @@ macOS 有两种安装方式：使用安装包安装或使用 homebrew 安装。
   - [2.1 下载ipic（仅限mac）](#2.1 下载ipic（仅限mac）)
   - [2.2 偏好设置](#2.2 偏好设置)
 
+- [1、为什么要用ipic](#1------ipic)
+- [2、ipic解决方案](#2-ipic----)
+  * [2.1 下载ipic（仅限mac）](#21---ipic---mac-)
