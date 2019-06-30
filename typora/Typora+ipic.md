@@ -102,3 +102,8 @@ macOS 有两种安装方式：使用安装包安装或使用 homebrew 安装。
 ![image-20190630122544661](http://ww3.sinaimg.cn/large/006tNc79ly1g4j2ictwmij30t404vmy6.jpg)
 
 ![image-20190630122609687](http://ww1.sinaimg.cn/large/006tNc79ly1g4j2idbf1kj30rs0493zz.jpg)
+
+方案二：下载工具
+
+[为 markdown 文件生成 toc 目录](https://github.com/houbb/markdown-toc/tree/release_1.0.2)
+
