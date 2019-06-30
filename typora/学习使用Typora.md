@@ -24,9 +24,9 @@
 
 ## 5、快捷键
 
-![image-20190630081821983](/Users/hubin/typoraDocument/technical-notes/typora/image-20190630081821983.png)
+![image-20190630081821983](http://ww1.sinaimg.cn/large/006tNc79ly1g4iy3s797aj30r50hutg7.jpg)
 
-![image-20190630081915736](/Users/hubin/typoraDocument/technical-notes/typora/image-20190630081915736.png)
+![image-20190630081915736](http://ww1.sinaimg.cn/large/006tNc79ly1g4iy3t2xe5j30qt0din1z.jpg)
 
 ## 6、typora+git+github
 
@@ -34,19 +34,19 @@
 
 进入github官网，在个人仓库页面，新建私人仓库。
 
-![image-20190630090250565](/Users/hubin/typoraDocument/technical-notes/typora/image-20190630090250565.png)
+![image-20190630090250565](http://ww3.sinaimg.cn/large/006tNc79ly1g4iy3tfm8jj30ls0i9goq.jpg)
 
 创建readme文件
 
-![image-20190630090339988](/Users/hubin/typoraDocument/technical-notes/typora/image-20190630090339988.png)
+![image-20190630090339988](http://ww4.sinaimg.cn/large/006tNc79ly1g4iy3ty6vuj30ry07xq5b.jpg)
 
 ### 6.2 克隆到本地
 
 进入项目页面，克隆仓库到本地。
 
 ```
-cd typoraDocument  //进入到本地仓库
-git init  //本地仓库初始化
+cd typoraDocument  //进入到本地仓库，本地创建typoraDocument文件夹
+git init  //本地仓库初始化，在typoraDocument仓库中初始化，完成后本地仓库typoraDocument就有了
 git clone git@github.com:ssxrs312/technical-notes.git   //克隆到本地仓库
 ```
 
@@ -54,24 +54,24 @@ git clone git@github.com:ssxrs312/technical-notes.git   //克隆到本地仓库
 
 主要就是开启Typora的文件树视图。
 
-![image-20190630091658200](/Users/hubin/typoraDocument/technical-notes/typora/image-20190630091658200.png)
+![image-20190630091658200](http://ww1.sinaimg.cn/large/006tNc79ly1g4iy3ucfbrj30h80ac79n.jpg)
 
 然后打开你的仓库。
 
-![image-20190630091724278](/Users/hubin/typoraDocument/technical-notes/typora/image-20190630091724278.png)
+![image-20190630091724278](http://ww1.sinaimg.cn/large/006tNc79ly1g4iy3utcuuj30il0ghaas.jpg)
 
-![image-20190630091752782](/Users/hubin/typoraDocument/technical-notes/typora/image-20190630091752782.png)
+![image-20190630091752782](http://ww1.sinaimg.cn/large/006tNc79ly1g4iy3ves1hj30hs09wgp8.jpg)
 
-![image-20190630091807117](/Users/hubin/typoraDocument/technical-notes/typora/image-20190630091807117.png)
+![image-20190630091807117](http://ww2.sinaimg.cn/large/006tNc79ly1g4iy3vv8stj30hw0ga75u.jpg)
 
 ### 6.4 同步到github
 
 ```
-#让本地仓库和远程仓库进行关联
+#让本地仓库和远程仓库进行关联(必须进入到本地的cd technical-notes的目录下)
 git remote add origin git@github.com:ssxrs312/technical-notes.git
 #进行添加和提交操作
 git add -A
-git commit -m"添加文件"
+git commit -m"添加文件夹typora"
 #将工程push到远程仓库
 git push origin master
 ```
