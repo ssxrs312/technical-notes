@@ -30,17 +30,46 @@
 
 # 3、参考资料
 
-[iPic - Markdown 图床、文件上传工具]: https://toolinbox.net/iPic/	"参考"
+[iPic - Markdown 图床、文件上传工具]:https://toolinbox.net/iPic/
+[Typora极简教程]:https://www.jianshu.com/p/a6a6a22e9393
 
 # 4、iPic Mover设置上传后删除本地图片
 
-
+在操作2.3时，可以将上传后删除本地图片的设置一起勾选，这里单独拿出来，是为了进行说明
 
 ![image-20190630101413952](http://ww1.sinaimg.cn/large/006tNc79ly1g4iytyj3j1j30jy0dwaaj.jpg)
 
+# 5、安装Pandoc
 
+Pandoc 是一个标记语言转换工具，可实现不同标记语言间的格式转换，堪称该领域中的“瑞士军刀”。
 
+Typora 的文件导入/导出功能使用 Pandoc 把 Markdown 源码转换成不同的文件格式，所以我们如果想使用文件导入/导出功能，必须先安装 Pandoc。
 
+如果不安装 Pandoc，Typora 只支持导出 HTML 和 PDF 格式的文件。
 
+如果安装了 Pandoc ：
 
+Typora 支持的导入文件格式: .docx, .latex, .tex, .ltx, .rst, .rest, .org, .wiki, .dokuwiki, .textile, .opml, .epub.
 
+Typora 支持的导出文件格式 : HTML, PDF, Docx, odt, rtf, Epub, LaTeX, Media Wiki,Image.
+
+## 5.1 macOS
+
+macOS 有两种安装方式：使用安装包安装或使用 homebrew 安装。
+
+1.  使用安装包安装
+  STEP 1. 打开下载页面： https://github.com/jgm/pandoc/releases/latest
+
+  STEP 2. 下载最新的安装包： pandoc-版本号-osx.pkg
+
+  STEP 3. 双击后按照提示一步步安装
+
+2.  使用 homebrew 安装
+
+   在命令行中执行：
+
+   ```
+   sudo brew install pandoc
+   ```
+
+   
