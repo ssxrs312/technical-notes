@@ -46,9 +46,9 @@
 # 3  参考资料
 
 1. [iPic - Markdown 图床、文件上传工具](https://toolinbox.net/iPic/ )
-
 2. [Typora极简教程](https://www.jianshu.com/p/a6a6a22e9393)
 3. [Github Flavored Markdown语法介绍](https://github.com/guodongxiaren/README)
+4. [Markdown 入门参考](http://itmyhome.com/markdown/index.html)
 
 # 4  iPic Mover设置上传后删除本地图片
 
