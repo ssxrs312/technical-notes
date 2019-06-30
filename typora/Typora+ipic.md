@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: ipic
+---
+
 [TOC]
 
 # 1、为什么要用ipic
@@ -26,7 +30,7 @@
 
 这也需要App store中下载，使用之后，之前github不能显示的图片就可以显示了
 
-![image-20190630100551123](image-20190630100551123.png)
+![image-20190630100551123](http://ww4.sinaimg.cn/large/006tNc79ly1g4iyw35920j30pe0hiamz.jpg)
 
 # 3、参考资料
 
@@ -36,4 +40,4 @@
 
 
 
-![image-20190630101413952](image-20190630101413952.png)
+![image-20190630101413952](http://ww1.sinaimg.cn/large/006tNc79ly1g4iytyj3j1j30jy0dwaaj.jpg)
