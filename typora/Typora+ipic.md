@@ -30,8 +30,9 @@
 
 # 3、参考资料
 
-[iPic - Markdown 图床、文件上传工具]:https://toolinbox.net/iPic/
-[Typora极简教程]:https://www.jianshu.com/p/a6a6a22e9393
+1. [iPic - Markdown 图床、文件上传工具](https://toolinbox.net/iPic/ )
+
+2. [Typora极简教程](https://www.jianshu.com/p/a6a6a22e9393)
 
 # 4、iPic Mover设置上传后删除本地图片
 
@@ -41,6 +42,7 @@
 
 # 5、安装Pandoc
 
+## 5.1 为什么要用Pandoc
 Pandoc 是一个标记语言转换工具，可实现不同标记语言间的格式转换，堪称该领域中的“瑞士军刀”。
 
 Typora 的文件导入/导出功能使用 Pandoc 把 Markdown 源码转换成不同的文件格式，所以我们如果想使用文件导入/导出功能，必须先安装 Pandoc。
@@ -53,7 +55,7 @@ Typora 支持的导入文件格式: .docx, .latex, .tex, .ltx, .rst, .rest, .org
 
 Typora 支持的导出文件格式 : HTML, PDF, Docx, odt, rtf, Epub, LaTeX, Media Wiki,Image.
 
-## 5.1 macOS
+## 5.2 macOS
 
 macOS 有两种安装方式：使用安装包安装或使用 homebrew 安装。
 
