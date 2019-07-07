@@ -2,9 +2,15 @@
 
 - [typora](./typora)
 
-  [学习使用Typora](/typora/学习使用Typora.md)
+  * [学习使用Typora](/typora/学习使用Typora.md)
 
-  [Typora+ipic](/typora/Typora+ipic.md)
+  * [Typora+ipic](/typora/Typora+ipic.md)
+
+* [架构师之路](./架构师之路)
+  * [目录汇总](./架构师之路/目录汇总.md)
+  * [分层架构](./架构师之路/分层架构)
+
+
 
 # 1  程序员如何构建自己的学习笔记系统
 
