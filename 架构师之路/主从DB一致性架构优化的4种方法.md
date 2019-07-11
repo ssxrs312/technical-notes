@@ -12,11 +12,11 @@
 
 大部分互联网的业务都是“读多写少”的场景，数据库层面，读性能往往成为瓶颈。如下图：业界通常采用“一主多从，读写分离，冗余多个读库”的**数据库架构**来提升数据库的读性能。
 
-![image-20190711162819450](/Users/hubin/typoraDocument/technical-notes/架构师之路/image-20190711162819450.png)
+![image-20190711162819450](http://ww3.sinaimg.cn/large/006tNc79ly1g4vzjj61szj305w03n3yq.jpg)
 
 这种架构的一个潜在**缺点**是，业务方有可能读取到并不是最新的旧数据：
 
-![image-20190711163116808](/Users/hubin/typoraDocument/technical-notes/架构师之路/image-20190711163116808.png)
+![image-20190711163116808](http://ww3.sinaimg.cn/large/006tNc79ly1g4vzjjftn4j306r0463z3.jpg)
 
 （1）系统先对DB-master进行了一个写操作，写主库
 
@@ -34,7 +34,7 @@
 
 **不一致是因为写完成后，主从同步有一个时间差，假设是500ms，这个时间差有读请求落到从库上产生的**。有没有办法做到，等主从同步完成之后，主库上的写请求再返回呢？答案是肯定的，就是大家常说的“半同步复制”semi-sync：
 
-![image-20190711163213249](/Users/hubin/typoraDocument/technical-notes/架构师之路/image-20190711163213249.png)
+![image-20190711163213249](http://ww2.sinaimg.cn/large/006tNc79ly1g4vzjjyyaoj30710450tc.jpg)
 
 （1）系统先对DB-master进行了一个写操作，写主库
 
@@ -52,7 +52,7 @@
 
 如果不使用“增加从库”的方式来增加提升系统的读性能，完全可以读写都落到主库，这样就不会出现不一致了：
 
-![image-20190711163242451](/Users/hubin/typoraDocument/technical-notes/架构师之路/image-20190711163242451.png)
+![image-20190711163242451](http://ww3.sinaimg.cn/large/006tNc79ly1g4vzjkfpizj306v04bdgg.jpg)
 
 **方案优点**：“一致性”上不需要进行系统改造
 
@@ -64,7 +64,7 @@
 
 如果有了数据库中间件，所有的数据库请求都走中间件，这个主从不一致的问题可以这么解决：
 
-![image-20190711163330590](/Users/hubin/typoraDocument/technical-notes/架构师之路/image-20190711163330590.png)
+![image-20190711163330590](http://ww2.sinaimg.cn/large/006tNc79ly1g4vzjlc2cvj307e05q3zd.jpg)
 
 （1）所有的读写都走数据库中间件，通常情况下，写请求路由到主库，读请求路由到从库
 
@@ -82,7 +82,7 @@
 
 既然数据库中间件的成本比较高，有没有更低成本的方案来记录某一个库的某一个key上发生了写请求呢？很容易想到使用缓存，当写请求发生的时候：
 
-![image-20190711163418726](/Users/hubin/typoraDocument/technical-notes/架构师之路/image-20190711163418726.png)
+![image-20190711163418726](http://ww3.sinaimg.cn/large/006tNc79ly1g4vzjlsunnj309203edgc.jpg)
 
 （1）将某个库上的某个key要发生写操作，记录在cache里，并设置“经验主从同步时间”的cache超时时间，例如500ms
 
@@ -92,7 +92,7 @@
 
 而读请求发生的时候：
 
-![image-20190711163432582](/Users/hubin/typoraDocument/technical-notes/架构师之路/image-20190711163432582.png)
+![image-20190711163432582](http://ww1.sinaimg.cn/large/006tNc79ly1g4vzjme5knj309m06cmye.jpg)
 
 （1）先到cache里查看，对应库的对应key有没有相关数据
 
